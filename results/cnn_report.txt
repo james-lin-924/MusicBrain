@@ -1,0 +1,43 @@
+==================================================
+>>> 來源 (Source) 分類報告 (3類) <<<
+==================================================
+              precision    recall  f1-score   support
+
+       Human     0.9418    0.8725    0.9059       204
+       large     0.8097    0.8883    0.8472       206
+      melody     0.8919    0.8684    0.8800       190
+
+    accuracy                         0.8767       600
+   macro avg     0.8811    0.8764    0.8777       600
+weighted avg     0.8807    0.8767    0.8775       600
+
+
+==================================================
+>>> 風格 (Style) 分類報告 (20類) <<<
+==================================================
+                              precision    recall  f1-score   support
+
+     Alkan-Classical_General     0.1818    0.1429    0.1600        28
+                Bach-Baroque     0.2381    0.1724    0.2000        29
+    Beatty-Classical_General     0.2564    0.3226    0.2857        31
+         Beethoven-Classical     0.2917    0.2414    0.2642        29
+   Carbajo-Classical_General     0.2821    0.4074    0.3333        27
+             Chopin-Romantic     0.1176    0.1429    0.1290        28
+    Czerny-Classical_General     0.2889    0.4194    0.3421        31
+Gottschalk-Classical_General     0.1667    0.0833    0.1111        36
+              Handel-Baroque     0.3333    0.2750    0.3014        40
+             Haydn-Classical     0.1842    0.2692    0.2188        26
+              Liszt-Romantic     0.3171    0.3714    0.3421        35
+            Mozart-Classical     0.1818    0.2500    0.2105        24
+   Rebikov-Classical_General     0.2766    0.3714    0.3171        35
+           Scarlatti-Baroque     0.2727    0.1935    0.2264        31
+           Schubert-Romantic     0.2500    0.2581    0.2540        31
+           Schumann-Romantic     0.2500    0.1739    0.2051        23
+     Scott-Classical_General     0.2500    0.0938    0.1364        32
+  Scriabin-Classical_General     0.1795    0.2414    0.2059        29
+   Simpson-Classical_General     0.2778    0.2273    0.2500        22
+     Zhang-Classical_General     0.1852    0.1515    0.1667        33
+
+                    accuracy                         0.2417       600
+                   macro avg     0.2391    0.2404    0.2330       600
+                weighted avg     0.2415    0.2417    0.2347       600
